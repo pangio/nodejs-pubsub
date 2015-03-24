@@ -1,7 +1,6 @@
-#Pub-Sub server 
-Pub-Sub server example with NodeJS & Socket.io.
-
-Checkout also de [webserver] (https://github.com/pangio/nodejs-webserver) to taste the real-time with NodeJS & Socket.io
+#PubSub server 
+PubSub server example with NodeJS & Socket.io.
+For the full example checkout also the [webserver] (https://github.com/pangio/nodejs-webserver) front-end and taste the real-time with NodeJS, Socket.io & Google Charts.
 
 # Stack
 *  Nodejs v0.12
@@ -16,7 +15,7 @@ Checkout also de [webserver] (https://github.com/pangio/nodejs-webserver) to tas
 *  Redis instance on Cloud - you can create your own for free in [Redis labs](https://redislabs.com/)
 *  CURL or any REST Client (like XHR Poster)
 
-# From the Command line terminal:
+# Setup
 
 * clone the repo
 ```
@@ -26,10 +25,15 @@ https://github.com/pangio/nodejs-pubsub.git
 ```
 npm install
 ```
+* Database Config
+
+Setup your cloud database connection by adding  ```PORT``` , ``` URL``` & ```PASSWORD``` in the [redis.js] (./lib/redis.js) .
+
 * Run
 ```
 node app.js
 ```
+
 
 # Endpoint & Http Methods
 
