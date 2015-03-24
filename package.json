@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-people-pubsub",
+  "version": "1.0.0",
+  "description": "PubSub server for People",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pangio",
+  "license": "ISC",
+  "dependencies": {
+    "axon": "^2.0.1",
+    "express": "^3.20.1",
+    "redis": "^0.12.1",
+    "underscore": "^1.8.2",
+    "ws": "^0.7.1"
+  }
+}
